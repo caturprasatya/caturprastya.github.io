@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar untuk negeri</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="img/lab-school.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="topnav">
+        <img src="img/bhinekatunggalika.jpg" alt="icon">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>    
+    <!-- content -->
+    <!-- header -->
+    <div id="bgimg" class="center">
+        <h2 class="font-header">Fakta Unik</h2>
+        <p class="color size">Berbicara mengenai kehidupan di dunia ini, memang tidak bisa dilepaskan dengan hal-hal yang unik. Entah itu, 
+            sesuatu yang mustahil menjadi kenyataan, peristiwa yang aneh dan membingunkan dan masih banyak lagi. 
+            Namun, tahukah kamu? Dibalik kehidupan yang beragam ini terselip berbagai fakta yang mungkin belum kita ketahui. 
+            <br> Bantu jawab bebrapa pertanyaaan dibawah ini ya...</p>
+    </div>
+    <!-- container block -->
+    <div class="container-block">
+        <div id="card">
+            <img src="img/aurora.png" alt="aurora">
+            <div class="right">
+                <body class="fun-fact">
+                    <table>
+                        <tr>
+                            <td>
+                                <h4 class="center">Fakta Unik</h4>
+                                <p>Warga Jakarta dibuat takjub dan sangat beruntung dapat menyaksikan Aurora Borealis yang biasanya hanya terjadi di kutub utara.</p> 
+                                <p>Coba kamu cari tahu, kapankah peristiwa ini terjadi??</p>
+                            </td>
+                        </tr>
+                        <tr> 
+                            <td> 
+                                <form>
+                                    <div class="Answer">
+                                    <label class="anslabel" for="ans1">Answer :</label><br>
+                                    <input type="text/number" id="input-ans1" class="ansinput" name="input-ans1" placeholder="Ketikan..." required>
+                                    <div class="center">
+                                        <button class="checkAns" id='checkAns1'type="button" value="Periksa">Jawab</button>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- <script src="script.js"></script> -->
+                    </body> 
+                </div>
+            </div>
+        <div id="card">
+            <img src="img/music.jpg" alt="title-music">
+            <div class="right">
+                <body class="fun-fact">
+                    <table> 
+                        <tr>
+                            <td>
+                                <h4 class="center">Fakta Unik</h4>
+                                <p>Dikehidupan kita mendengarkan musik merupakan salah satu kegiatan yang wajib, taukah kalian mendengarkan musik dapat membantu meringankan depresi.</p> 
+                            <p>Coba kamu cari tahu, berapa persenkah musik dapat meringankan depresi??</p>
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td> 
+                            <form>
+                                <div class="Answer">
+                                    <label class="anslabel" for="input-ans2">Answer :</label><br>
+                                    <input type="text/number" id="input-ans2" class="ansinput" name="input-ans2" placeholder="Ketikan...(%)" required>
+                                    <div class="center">
+                                        <button class="checkAns" id='checkAns2'type="button" value="Periksa">Jawab</button>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </body>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <div> 
+    </div>
+    <script src="script.js"></script>
+    <!-- footer -->
+    <footer class="foo">
+        <div class="text">Made for Hacktiv8 student || final project</div>
+    </footer>
+</body>
+</html>
